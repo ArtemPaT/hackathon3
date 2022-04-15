@@ -67,6 +67,7 @@
 					<a href="#opro" class="mt-2"><h5 class="text-white ml-4">О ПРОЕКТЕ</h6></a>
 					<a href="#volont" class="mt-2 ml-3"><h5 class="text-white ml-4">ВОЛОНТЕРАМ</h6></a>
 						<a href="#org" class="mt-2 ml-3"><h5 class="text-white ml-4">ОРГАНИЗАТОРАМ</h6></a>
+							
 				</div>
 				<div class="col-3 d-flex ml-5" style="position: absolute; right: 0px">
 

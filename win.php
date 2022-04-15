@@ -102,8 +102,31 @@
 
 
 	</nav>
-	<div class="col-9 mx-auto border shadow" style="height: 1000px;">
+	<div class="col-9 mx-auto border shadow p-0">
+		<h4 class="text-center">Ваш результат: <?php echo $_GET['lol']; ?></h4>
 		
+		<?php 
+			if ($_GET['lol'] <= 2) {
+				echo '<h5 class="text-center">Вам еще многое предстоит узнать о волонтерстве. <br>Для закрепления знаний можете прочитать <a href="volls.php">вводную статью</a></h5>';
+			}
+			elseif ($_GET['lol'] <= 4) {
+				echo '<h5 class="text-center">Вам еще многое предстоит узнать о волонтерстве. <br>Для закрепления знаний можете прочитать <a href="volls.php">вводную статью</a></h5>';
+			}
+			elseif ($_GET['lol'] <= 6) {
+				echo '<h5 class="text-center">Вы имеете неплохое представление о волонтерстве, но вам все еще есть куда расти. <br>Для закрепления знаний можете прочитать <a href="volls.php">вводную статью</a></h5>';
+			}
+			elseif ($_GET['lol'] <= 8) {
+				echo '<h5 class="text-center">Вы имеете неплохое представление о волонтерстве, но вам все еще есть куда расти. <br>Для закрепления знаний можете прочитать <a href="volls.php">вводную статью</a></h5>';
+			}
+			elseif ($_GET['lol'] <= 10) {
+				echo '<h5 class="text-center">Ваши познания в сфере волонтерства неподражаемы!<br>Для закрепления знаний можете прочитать <a href="volls.php">вводную статью</a></h5>';
+			}
+		 ?>
+		 <h5 class="text-center underline">Или пройдите тест <a href="test.php">еще раз</a></h5>
+		 <div class="col-4 mx-auto">
+		 	<img src="LOO.png" class="w-100">
+		 </div>
+		 
 	</div>
 	
 	
